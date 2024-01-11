@@ -54,7 +54,3 @@ Exo 6 :
 
     -docker build -t hylianmnst/coursdockerexo6 .  
     -docker run -d -p 3000:3000 --network=coursdockerexo6 hylianmnst/coursdockerexo6
-
-    -docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres --name coursdockerexo5 hylianmnst/coursdockerexo5
-
-
